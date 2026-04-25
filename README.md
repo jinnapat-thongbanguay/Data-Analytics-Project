@@ -159,6 +159,12 @@ Table 4: factmarketingspend (Optional but Advanced)
 | cost_amount | DECIMAL            | -           | จำนวนเงินที่จ่ายไป                 | 75.48, 129.77        |
 | clicks      | INT (Whole Number) | -           | จำนวนคลิกที่ได้รับจากยอดเงินนี้    | 934, 2515            |
 
+## EDA (Visualizations)
+**EDA Hypothesis 1**
+**EDA Hypothesis 2**
+**EDA Hypothesis 3**
+**EDA Hypothesis 4**
+**EDA Hypothesis 5**
 
 ## Insight
 **Insight Hypothesis 1**
@@ -171,3 +177,5 @@ Table 4: factmarketingspend (Optional but Advanced)
 
 **Insight Hypothesis 3**
 -  จากการวิเคราะห์พบว่า Seasonal Promotion บนช่องทาง OTA มีค่า Net ADR ต่ำที่สุดที่ ~111 ต่ำกว่า Benchmark 123.88 ถึง 10.4% เมื่อรวมค่า Commission 15–20% รายได้สุทธิมีความเสี่ยงสูงที่จะไม่คุ้มทุน แม้แต่บนช่องทาง Direct (~117) ก็ยังต่ำกว่า Benchmark สะท้อนภาวะ Over-discounting ในทุกช่องทาง โรงแรมจึงควรจำกัด Promotion Rate เฉพาะช่องทาง Direct และกำหนด Price Floor ใหม่ให้สูงกว่า Benchmark เพื่อปกป้อง Net Revenue
+
+## Recommendations
