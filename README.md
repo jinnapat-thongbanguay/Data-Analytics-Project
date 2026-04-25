@@ -164,12 +164,33 @@ Table 4: factmarketingspend (Optional but Advanced)
 <p align="center">
   <img src="EDA_figures/Hypothesis 1.png" width="700">
 </p>
+จากการวิเคราะห์พบว่าช่องทาง Direct มีประสิทธิภาพในการทำราคาห้องพักเฉลี่ยสุทธิ (NetADR) สูงที่สุด ซึ่งสะท้อนให้เห็นว่าเป็นช่องทางที่สร้างกำไรต่อหน่วยได้ดีมาก อย่างไรก็ตามในแง่ของปริมาณการจอง (Volume) ที่สำเร็จ (status: checked-out) กลับยังตามหลังช่องทาง OTA อย่างมีนัยสำคัญ แม้ช่องทาง OTA จะสร้าง Volume ได้มาก แต่ประสิทธิภาพในการทำราคาห้องพักเฉลี่ยสุทธิ (NetADR) ต่ำกว่าช่องทาง Direct ถึง 18.29% ซึ่งนอกจากปัจจัยด้านค่าธรรมเนียมแล้ว ความแตกต่างของปริมาณการจองที่สำเร็จอาจมีความเชื่อมโยงกับพฤติกรรมการยกเลิกการจอง (Cancellation Rate) ที่แตกต่างกันในแต่ละช่องทาง ในขณะที่ช่องทาง Wholesale จัดเป็นกลุ่มที่มีประสิทธิภาพต่ำที่สุด (Underperformer) ในทุกมิติ ทั้งในด้านราคาเฉลี่ยและปริมาณการจอง
+
+<br>
+<br>
 
 **EDA Hypothesis 2**
+<p align="center">
+  <img src="EDA_figures/Hypothesis 2.png" width="700">
+</p>
 
 **EDA Hypothesis 3**
+<p align="center">
+  <img src="EDA_figures/Hypothesis 3.png" width="700">
+</p>
+
+<p align="center">
+  <img src="EDA_figures/Hypothesis 3-1.png" width="700">
+</p>
 
 **EDA Hypothesis 4**
+<p align="center">
+  <img src="EDA_figures/Hypothesis 4.png" width="700">
+</p>
+
+<p align="center">
+  <img src="EDA_figures/Hypothesis 4-1.png" width="700">
+</p>
 
 **EDA Hypothesis 5**
 
