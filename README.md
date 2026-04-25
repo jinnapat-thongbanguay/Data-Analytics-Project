@@ -1,4 +1,4 @@
-# Problem 2: High Distribution Costs (Channel Profitability)
+<img width="468" height="55" alt="image" src="https://github.com/user-attachments/assets/cbcd6aaa-af36-42ef-9f67-fb24871c9d14" /># Problem 2: High Distribution Costs (Channel Profitability)
 
 ## Background
 Azure Stay Hotel พบว่ารายรับรวม (Gross Revenue) มีแนวโน้มเติบโต แต่กำไรสุทธิกลับไม่เพิ่มขึ้นในสัดส่วนเดียวกัน สาเหตุหลักคือโรงแรมพึ่งพาช่องทาง OTA (Online Travel Agents) เช่น Expedia และ Booking.com เป็นสัดส่วนสูง ซึ่งเรียกเก็บค่า commission สูงถึง 15–20% ต่อ booking ทำให้รายรับสุทธิต่อห้องลดลงอย่างมีนัยสำคัญ
@@ -174,13 +174,19 @@ Table 4: factmarketingspend (Optional but Advanced)
 - Combo Chart (Bar + Line): ใช้เพื่อแยกความแตกต่างระหว่าง "ราคา" (Bar) และ "ปริมาณ" (Line) ให้เปรียบเทียบความสัมพันธ์ได้ในกราฟเดียว
 - Dual Axis (แกนคู่): เนื่องจากตัวเลขราคา (หลักร้อย) และปริมาณ (หลักหมื่น) มีมาตรวัดต่างกันมาก การใช้แกนแยกซ้าย-ขวาจึงช่วยให้เห็นสัดส่วนที่ชัดเจน และไม่ทับซ้อนกัน
 
-<br>
-<br>
+**EDA Hypothesis 2 :** เพื่อพิสูจน์ว่าช่องทางที่มียอดจองสูงอย่าง OTA มีความไม่แน่นอนของรายได้สูงกว่าช่องทางอื่น โดยวิเคราะห์ผ่าน อัตราการยกเลิก (Cancellation Rate) เพื่อหาแนวทางในการทำ Channel Mix Optimization ที่จะช่วยลดต้นทุนค่าเสียโอกาส (Opportunity Cost) และเพิ่มความเสถียรให้กับรายได้สุทธิ
 
-**EDA Hypothesis 2**
 <p align="center">
   <img src="EDA_figures/Hypothesis 2.png" width="700">
 </p>
+จากกราฟพบว่าช่องทาง OTA ที่มียอดจอง (Volume) สูงที่สุด แต่ต้องแลกมาด้วยความเสี่ยงจากการยกเลิกที่สูงที่สุดถึง 8.19% ซึ่งยืนยันสมมติฐานว่ายอดจองจำนวนมากจากช่องทางนี้มีความไม่แน่นอนสูง และสร้างค่าเสียโอกาสให้แก่โรงแรม
+
+<br>
+<br>
+
+เหตุผลการเลือกใช้แผนภูมิ (Rationale):
+- Dual-Pane Combo Chart: เลือกใช้การวางกราฟ NetADR และ Volume แยกส่วนกัน (Upper/Lower Pane) แต่ใช้แกน X (Channel Type) ร่วมกัน เพื่อให้เห็นภาพสะท้อนว่า เมื่อ Volume สูงขึ้น อัตราการยกเลิกจะผันแปรตามอย่างไรในแต่ละระดับราคา
+- Line Chart Overlays (เส้นสีแดง): ใช้เพื่อแสดง Cancellation Rate ที่คำนวณจากสัดส่วนการยกเลิกต่อยอดจองทั้งหมด เส้นนี้ทำหน้าที่ใช้เปรียบเทียบความเสี่ยงกับการยอดจอง เพื่อให้เห็นชัดเจนว่าช่องทางที่มียอดจองเยอะ และช่องทางที่ทำรายได้สุทธิต่อห้องได้มาก มีการยกเลิกเยอะตามไปด้วยหรือไม่ 
 
 **EDA Hypothesis 3**
 <p align="center">
@@ -225,6 +231,9 @@ Table 4: factmarketingspend (Optional but Advanced)
 <br>
 
 **EDA Hypothesis 5**
+<p align="center">
+  <img src="EDA_figures/Hypothesis 5.png" width="700">
+</p>
 
 ## Insight
 **Insight Hypothesis 1**
