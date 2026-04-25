@@ -161,9 +161,16 @@ Table 4: factmarketingspend (Optional but Advanced)
 
 ## EDA (Visualizations)
 **EDA Hypothesis 1**
+<p align="center">
+  <img src="EDA_figures/Hypothesis 1.png" width="700">
+</p>
+
 **EDA Hypothesis 2**
+
 **EDA Hypothesis 3**
+
 **EDA Hypothesis 4**
+
 **EDA Hypothesis 5**
 
 ## Insight
