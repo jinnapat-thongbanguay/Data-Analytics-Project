@@ -1,4 +1,4 @@
-<img width="468" height="55" alt="image" src="https://github.com/user-attachments/assets/cbcd6aaa-af36-42ef-9f67-fb24871c9d14" /># Problem 2: High Distribution Costs (Channel Profitability)
+# Problem 2: High Distribution Costs (Channel Profitability)
 
 ## Background
 Azure Stay Hotel พบว่ารายรับรวม (Gross Revenue) มีแนวโน้มเติบโต แต่กำไรสุทธิกลับไม่เพิ่มขึ้นในสัดส่วนเดียวกัน สาเหตุหลักคือโรงแรมพึ่งพาช่องทาง OTA (Online Travel Agents) เช่น Expedia และ Booking.com เป็นสัดส่วนสูง ซึ่งเรียกเก็บค่า commission สูงถึง 15–20% ต่อ booking ทำให้รายรับสุทธิต่อห้องลดลงอย่างมีนัยสำคัญ
