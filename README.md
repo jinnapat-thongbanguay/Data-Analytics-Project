@@ -234,6 +234,17 @@ Table 4: factmarketingspend (Optional but Advanced)
 <p align="center">
   <img src="EDA_figures/Hypothesis 5.png" width="700">
 </p>
+จากการวิเคราะห์ Net ADR แยกตาม Channel และ Rate Code พบว่า OTA Promotion ให้ค่า Net ADR ต่ำกว่าช่องทางอื่นอย่างชัดเจน (ประมาณ 110 เทียบกับ Direct ที่ 146–162 และต่ำกว่า Benchmark 123.87) สะท้อนผลกระทบจากส่วนลดและค่าคอมมิชชัน (~18%) ที่ทำให้กำไรสุทธิลดลง โดยเฉพาะในช่วง High Demand ที่โรงแรมสามารถขายผ่าน Direct ได้เอง จึงนำไปสู่ภาวะ Commission Leakage และเป็นเหตุผลให้ควรจำกัด Promotion บน OTA พร้อมใช้กลยุทธ์ Close-out เพื่อรักษา Margin
+
+<br>
+<br>
+
+เหตุผลการเลือกใช้แผนภูมิ (Rationale):
+- Cluster Column: ใช้เพื่อเปรียบเทียบค่า Net ADR ระหว่าง Channel และ Rate Code ได้ชัดเจนในภาพเดียว พร้อมเส้น Benchmark (123.88) ที่ทำให้เห็นทันทีว่ากลุ่มใดสูงหรือต่ำกว่าเกณฑ์ จึงช่วยวิเคราะห์ Commission Leakage และตัดสินใจเชิงกลยุทธ์ได้ง่ายขึ้น
+
+<br>
+<br>
+
 
 ## Insight
 **Insight Hypothesis 1**
@@ -254,7 +265,7 @@ Table 4: factmarketingspend (Optional but Advanced)
 - ข้อมูลนี้สะท้อนว่าในสภาวะที่มีความต้องการเข้าพักสูง (Peak Demand) โรงแรมยังคงพึ่งพาการจองผ่าน OTA ถึง 56% ส่งผลให้ต้องแบกรับต้นทุนคอมมิชชันที่สูงขึ้นตามราคาห้องพัก ซึ่งถือเป็นการสูญเสียโอกาสในการเพิ่มกำไรสุทธิ (Net Revenue) ในช่วงเวลาที่โรงแรมมีอำนาจต่อรองสูงสุด
 
 **Insight Hypothesis 5**
--  จากการวิเคราะห์พบว่า Seasonal Promotion บนช่องทาง OTA มีค่า Net ADR ต่ำที่สุดที่ ~111 ต่ำกว่า Benchmark 123.88 ถึง 10.4% เมื่อรวมค่า Commission 15–20% รายได้สุทธิมีความเสี่ยงสูงที่จะไม่คุ้มทุน แม้แต่บนช่องทาง Direct (~117) ก็ยังต่ำกว่า Benchmark สะท้อนภาวะ Over-discounting ในทุกช่องทาง โรงแรมจึงควรจำกัด Promotion Rate เฉพาะช่องทาง Direct และกำหนด Price Floor ใหม่ให้สูงกว่า Benchmark เพื่อปกป้อง Net Revenue
+-  จากการวิเคราะห์พบว่า OTA Promotion ให้ Net ADR ต่ำสุด (~111) ต่ำกว่า Benchmark 123.87 ถึง 10.4% และเมื่อรวม Commission 15–20% ทำให้มีความเสี่ยงไม่คุ้มทุน ขณะเดียวกันแม้แต่ Promotion บน Direct (~117) ก็ยังต่ำกว่า Benchmark สะท้อนภาวะ Over-discounting ในทุกช่องทาง โดยเฉพาะช่วง High Demand ที่โรงแรมสามารถขายเองได้ ส่งผลให้เกิด Commission Leakage ดังนั้นควรจำกัด Promotion โดยเฉพาะบน OTA พร้อมใช้กลยุทธ์ OTA Close-out และกำหนด Price Floor เพื่อรักษา Net Revenue และเพิ่มกำไรในระยะยาว
 
 
 ## Recommendations
