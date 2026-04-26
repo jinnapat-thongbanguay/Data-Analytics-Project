@@ -188,7 +188,8 @@ Table 4: factmarketingspend (Optional but Advanced)
 - Dual-Pane Combo Chart: เลือกใช้การวางกราฟ NetADR และ Volume แยกส่วนกัน (Upper/Lower Pane) แต่ใช้แกน X (Channel Type) ร่วมกัน เพื่อให้เห็นภาพสะท้อนว่า เมื่อ Volume สูงขึ้น อัตราการยกเลิกจะผันแปรตามอย่างไรในแต่ละระดับราคา
 - Line Chart Overlays (เส้นสีแดง): ใช้เพื่อแสดง Cancellation Rate ที่คำนวณจากสัดส่วนการยกเลิกต่อยอดจองทั้งหมด เส้นนี้ทำหน้าที่ใช้เปรียบเทียบความเสี่ยงกับการยอดจอง เพื่อให้เห็นชัดเจนว่าช่องทางที่มียอดจองเยอะ และช่องทางที่ทำรายได้สุทธิต่อห้องได้มาก มีการยกเลิกเยอะตามไปด้วยหรือไม่ 
 
-**EDA Hypothesis 3**
+**EDA Hypothesis 3 :** เพื่อพิสูจน์ว่าช่วงวันหยุดสุดสัปดาห์ (Weekend) มี Demand สูงกว่าวันธรรมดาอย่างมีนัยสำคัญ โดยวิเคราะห์ผ่าน Booking Volume รายวันและ Gross ADR เพื่อใช้เป็นหลักฐานเชิงตัวเลขสนับสนุน Hypothesis 4 ที่จะแนะนำให้โรงแรมพิจารณาลดการพึ่งพา OTA ในช่วง Peak Demand และเปลี่ยนยอดจองมาสู่ช่องทาง Direct แทน เพื่อรักษา Net RevPAR ให้สูงที่สุด
+
 <p align="center">
   <img src="EDA_figures/Hypothesis 3.png" width="700">
 </p>
@@ -209,7 +210,7 @@ Table 4: factmarketingspend (Optional but Advanced)
 <br>
 <br>
 
-**EDA Hypothesis 4**
+**EDA Hypothesis 4 :** เพื่อพิสูจน์ว่าแม้ Weekend จะเป็น High Demand Period แต่โรงแรมยังคงพึ่งพา OTA ในสัดส่วนที่เท่าเดิมกับวันธรรมดา และยังต้องจ่าย Avg Commission ต่อ Booking สูงขึ้นในวันหยุด ซึ่งแสดงให้เห็นว่าโรงแรมกำลังสูญเสีย Net Revenue ให้กับ OTA โดยไม่จำเป็นในช่วงที่ห้องพัก "ขายได้เองอยู่แล้ว"
 <p align="center">
   <img src="EDA_figures/Hypothesis 4.png" width="700">
 </p>
